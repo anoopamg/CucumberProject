@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/java/features", 
 		glue = "stepdefs",
 		//tags = {"@WIP"}, 
-		tags = {"@Sanity"}
+		tags = {"@Browser"}
 		//tags = {"@Regression or @Sanity"}, // runs test cases which have either Regression or Sanity tags
 		//tags = {"@Regression and @Sanity"}, // runs test cases which have both Regression and Sanity tags
 		//tags = {"@Calculator"}, //tags at feature file level
@@ -21,6 +21,6 @@ import io.cucumber.junit.CucumberOptions;
 		//tags = {"@Browser and not @WIP"}
 		)
 
-public class Runner {
+public class TestRunner {
 
 }
